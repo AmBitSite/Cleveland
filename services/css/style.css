@@ -1,0 +1,257 @@
+.header{
+    background-image: url(../img/header.png);
+	height: 580px;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+}
+.header-caption{
+    margin: 0;
+    padding-top:80px;
+    letter-spacing: 2px;
+}
+.header-caption_style{
+    font-size: 35px;
+    color: #fff;
+    margin-top:15px;
+}
+.header-text{
+    text-align: center;
+    width: 700px;
+    letter-spacing: 2px;
+    line-height: 140%;
+}
+.header-text_style{
+    color:#fff;
+    padding: 30px 0;
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 140%;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.cash{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cash-container{
+    margin-left: 160px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 700px;
+}
+.cash__header{
+    margin: 0;
+    margin-bottom: 40px;
+}
+.cash-block-text{
+    display: inline-flex;
+    width: 700px;
+    letter-spacing: 2px;
+}
+.cash-text__style{
+    line-height: 140%;
+}
+.cash-bg-img{
+    width: 530px;
+    background-image: url(../img/cash-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:right;
+}
+.crupto{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+    background-position-x: left;
+    background-size: 250%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c4c4c444
+}
+.crupto__header{
+    margin-top:100px;
+    margin-bottom: 0;
+}
+.crytpo-block__img1{
+    width: 700px;
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+.crupto-block-text{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.crupto-block__text{
+    line-height: 140%;
+    letter-spacing: 2px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.crupto-block__text_strong{
+    font-weight: bold;
+}
+.crupto-block-img{
+    width: 700px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.crupto-block__img{
+    margin-right: 40px;
+}
+.crypto-btn{
+    width: 700px;
+    display: flex;
+    justify-content: flex-start;
+}
+.clearance{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 100px;
+    background-image: url(../img/cheque.png);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: left center;
+}
+.clearance__header{
+    margin-top:100px;
+    margin-bottom: 40px;
+}
+.clearance-block-text{
+    width:460px;
+    letter-spacing: 2px;
+    line-height: 200%;
+    margin-right: 160px;
+}
+.clearance-btn{
+    width: 110px;
+    padding: 10px 40px;
+    background-color:#38a1f7;
+    border-radius: 50px;
+    -webkit-transition: background-color 0.5s linear 0;
+    transition: background-color 0.5s linear 0;
+    font-size: 17px;
+    margin-top: 40px;
+}
+.clearance-btn:hover{
+    background-image: -webkit-linear-gradient(top, #3e5eee, #0f365a);
+}
+.clearance-btn__link{
+
+}
+.gold-trade{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+    flex-direction: column;
+    background-image: url(../img/gold-trade.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right center;
+}
+.gold-trade__header{
+    margin-top:100px;
+    margin-bottom: 40px;
+}
+.gold-trade-block-text{
+    width:600px;
+    letter-spacing: 2px;
+    line-height: 200%;
+    margin-left:160px;
+    margin-bottom: 100px;
+}
+.investment{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    align-items: flex-end;
+    background-image: url(../img/investment.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: left center;
+}
+.investment__header{
+    margin-top:100px;
+    margin-bottom: 40px;
+}
+.investment-block-text{
+	width: 600px;
+	margin: 0 auto;
+	letter-spacing: 2px;
+    line-height: 200%;
+    margin-right:160px;
+}
+.company-formation{
+    padding:100px 0;
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin: 0 auto;
+    background-image: url(../img/company-formation.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.company-formation__header{
+    margin-top:0;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+.company-formation-text-block{
+    letter-spacing: 2px;
+    line-height: 200%;
+    width:700px;
+}
+.company-formation__second-header{
+    color: #505050;
+    font-size: 17px;
+    margin-top:20px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+.company-formation-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1050px;
+    margin-top:60px;
+}
+.company-formation-container-block{
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    line-height: 140%;
+    width: 133px;
+}
+.company-formation-container-block__img{
+    display: block;
+    margin-bottom:25px;
+    align-self: center;
+    line-height: 0;
+    width: 81px;
+    background-size: 100%;
+}
+.company-formation-container-block__img_size-L{
+    background-size: 70%;
+}
+.company-formation-container-block__img_size-X{
+    background-size: 140%;
+    width: 95px
+}
+.company-formation-container-block__img_size-XL{
+    background-size: 140%;
+    width: 105px
+}
+.company-formation-container-block__text{
+    font-size: 15px;
+    color:#505050;
+    line-height: 24px;
+    text-align: center;
+}
