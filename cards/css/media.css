@@ -1,0 +1,110 @@
+@media (max-width:1230px){
+	.header-caption{
+		margin-top: 140px;
+	}
+}
+@media (max-width:1024px){
+	.header{
+		background-size: 100% 80%;
+	}
+	.header-caption{
+		margin-top: 160px;
+	}
+	.header-caption_style{
+		font-size: 28px;
+		margin-bottom: 30px;
+	}
+	.header-text{
+		width: 95%;
+	}
+	.header-text_style{
+		font-size: 15px;
+	}
+	.cardInfo, .unionpay, .visa, .mastercard{
+		padding: 0 20px;
+	}
+}
+@media (max-width:900px){
+	.header{
+		background-size: 100% 100%;
+		height: 400px;
+	}
+	.cardInfo{
+		margin-top: 60px;
+	}
+	.cardInfo, .unionpay, .visa, .mastercard{
+		widows: 100%;
+		padding: 0 40px;
+	}
+	.section-heder{
+		font-size: 28px;
+	}
+}
+@media (max-width:670px){
+	.header{
+		height: 380px;
+		background-size: cover;
+		background-position: 40% 50%;
+	}
+	.header-caption{
+		margin-top: 170px;
+	}
+	.header-caption_style{
+		font-size: 22px;
+	}
+	.header-text_style{
+		font-size: 14px;
+	}
+}
+@media (max-width:560px){
+	.header{
+		height: 420px;
+	}
+	.cardInfo__imageBlock>img{
+		width: 73vw;
+		height: calc(73vw*0.687640449);
+	}
+	.unionpay__imageBlock>img{
+		width: 69vw;
+		height: calc(69vw*0.848888889);
+	}
+	.visa__imageBlock>img{
+		width: 69vw;
+		height: calc(69vw*0.688888889);
+	}
+	.mastercard__imageBlock>img{
+		width: 76vw;
+		height: calc(76vw*0.691304348);
+	}
+}
+@media (max-width:420px){
+	.header{
+		height: 470px;
+		background-position: 30% 30%; 
+	}
+	.cardInfo, .unionpay, .visa, .mastercard{
+		padding: 0 25px;
+	}
+	.cardInfo__imageBlock>img{
+		width: 68vw;
+		height: calc(68vw*0.687640449);
+	}
+	.unionpay__imageBlock>img{
+		width: 64vw;
+		height: calc(64vw*0.848888889);
+	}
+	.visa__imageBlock>img{
+		width: 64vw;
+		height: calc(64vw*0.688888889);
+	}
+	.mastercard__imageBlock>img{
+		width: 68vw;
+		height: calc(68vw*0.691304348);
+	}
+	.section-heder{
+		font-size: 24px;
+	}
+	.article-text{
+		text-align: justify;
+	}
+}

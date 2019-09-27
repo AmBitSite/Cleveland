@@ -1,0 +1,205 @@
+.header {
+	background-image: url(../img/header-bg.png);
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 100%;
+	padding-top: 180px;
+	padding-bottom: 100px;
+	margin: 0
+}
+
+.header-caption {
+	margin-top: 0;
+}
+
+.header-caption_style {
+	font-size: 40px;
+	color: #fff;
+	margin-bottom: 40px;
+	margin-top: 0px;
+}
+.header-text {
+	width: 700px;
+	text-align: center;
+}
+
+.header-text_style {
+	color: #fff;
+	padding: 30px 0;
+	font-size: 17px;
+	line-height: 140%;
+	letter-spacing: 2px;
+	font-weight: normal;
+	text-align: center;
+	color: #ffffff;
+}
+
+.cardInfo, .unionpay, .visa, .mastercard {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.cardInfo{
+	background-color: #c4c4c40e;
+}
+.unionpay{
+	padding-top: 100px;
+	padding-bottom: 75px;
+}
+.unionpay__header{
+	margin: 0;
+	letter-spacing: 2px;
+}
+.unionpay__text{
+	font-size: 25px;
+	line-height: 140%;
+}
+.unionpay__text_center{
+	text-align: center;
+	letter-spacing: 0px;
+}
+.section-img-block_bg-circle{
+	background-image: url(../img/circle.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 500px;
+}
+.card-info__text-block{
+	position: relative;
+	top: -90px;
+	width: 700px;
+	font-size: 25px;
+	line-height: 140%;
+	letter-spacing: 2px;
+	text-align: center;
+}
+.mastercard {
+	margin-bottom: 150px;
+	line-height: 140%;
+	letter-spacing: 2px;
+}
+
+.section-header {
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 36px;
+	color: #4c4b4b
+}
+
+.section-img-block {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+}
+.article-header, .article-text {
+	color: #505050;
+	line-height: 140%;
+
+}
+.unionpay-article-block{
+	display: flex;
+	flex-direction: column;
+	width: 700px;
+}
+.unionpay-article{
+	display: flex;
+	flex-direction: column;
+	padding-bottom:25px;
+	align-items: flex-start;
+}
+.unionpay-description{
+	display: flex;
+	flex-direction: column;
+	padding-bottom:50px;
+	text-align: left;	
+}
+
+.visa{
+	background-color: #c4c4c40e;
+	padding-bottom: 100px;
+}
+.visa__img{
+	width:450px;
+}
+.visa__header{
+	width: 500px;
+	letter-spacing: 2px;
+	line-height: 140%;
+	margin: 0;
+	position: relative;
+	top:-60px;
+}
+.visa-text_padding{
+	margin: 25px 0;
+}
+.visa-textBlock{
+	display: flex;
+	flex-direction: column;
+	width: 700px;
+}
+.visa-description{
+	display: flex;
+	flex-direction: column;
+}
+.visa__article{
+	display: flex;
+	flex-direction: column;
+	width: 700px;
+	align-self: center
+}
+.mastercard-text-block{
+	display: flex;
+	flex-direction: column;
+	width: 700px;
+}
+.mastercard-description{
+	display: flex;
+	flex-direction: column;
+}
+.mastercard{
+	padding-top:100px;
+}
+.mastercard__header{
+	padding-top:40px;
+	padding-bottom: 70px;
+	margin:0;
+}
+.visa__article-header{
+	width: 580px;
+	display: inline-flex;
+	line-height: 140%;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	align-self: center;
+	text-align:center;
+	margin:0;
+	margin-bottom: 40px;
+	
+}
+.visa__article-header_mrt{
+	margin-top:40px;
+	border-left: 2px solid #38a1f7;
+	border-right: 2px solid #38a1f7;
+}
+.visa-wrap{
+	list-style: none;
+	padding: 0
+}
+.visa-wrap__item{
+	padding: 12px 0;
+}
+.visa-wrap__text_strong{
+	font-weight: 900;
+	letter-spacing: 0px;
+}
+.visa-vs-mc{
+	padding: 100px 0;
+	display: flex;
+	flex-direction: column;
+	background-color: #c4c4c40e
+}

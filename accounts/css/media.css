@@ -1,0 +1,252 @@
+@media (max-width:1400px){
+	.header{
+		height: 450px;
+	}
+	.header-caption{
+		margin-top: 180px;
+	}
+	.accountsTextBlock, .accountsTable {
+		max-width: 1000px;
+	}
+	.accountsTextBlock__header{
+		font-size: 35px;
+	}
+	.accountsTextBlock__text{
+		font-size: 17px;
+		line-height: 24px;
+	}
+	.accountsTable__bookmarkContanier1, .accountsTable__bookmarkContanier2, 
+	.accountsTable__bookmarkContanier3{
+		height: 120px;
+	}
+	.accountsTable__bookmarkName{
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.accountsTable__bookmarkPercent{
+		font-size: 36px;
+		line-height: 48px;
+	}
+	.accountsTable__contentText {
+		font-size: 17px;
+		line-height: 24px;
+	}
+	.accountsTable__contentTableCellHeader, 
+	.accountsTable__contentTableCellData {
+	font-size: 15px;
+	line-height: 24px;
+	}
+}
+@media (max-width:1230px){
+	.header{
+		height: 420px;
+	}
+	.header-caption{
+		margin-top: 140px;
+	}
+}
+@media (max-width:1124px){
+	.header{
+		height: 380px;
+	}
+	.header-caption{
+		margin-top: 160px;
+	}
+	.header-caption_style{
+		font-size: 36px;
+	}
+	.accountsTextBlock, .accountsTable{
+		margin: 0 70px 50px 70px;
+	}
+}
+@media (max-width:1024px){
+	.header{
+		height: 300px;
+		background-size: cover;
+		background-position: center;
+	}
+	.header-caption{
+		margin-top: 160px;
+	}
+	.accountsTextBlock{
+		width: 100%;
+		margin: 50px 0;
+		padding: 0 50px;
+	}
+}
+@media (max-width:900px){
+	.header-caption{
+		margin-top: 160px;
+	}
+	.accountsTextBlock__header{
+		font-size: 30px;
+	}
+	.accountsTable{
+		margin: 0 50px 70px 50px;
+	}
+	.accountsTable__contentTableCellHeader, 
+	.accountsTable__contentTableCellData {
+		padding: 25px 10px;
+	}
+}
+@media (max-width:820px){
+	.header-caption{
+		margin-top: 170px;
+	}
+	.header-caption_style{
+		font-size: 30px;
+	}
+	.accountsTable{
+		margin-bottom: 30px;
+	}
+	.accountsTable__contentTableCellHeader, 
+	.accountsTable__contentTableCellData {
+		padding: 25px 5px;
+	}
+}
+@media (max-width:768px){
+	.accountsTextBlock__header{
+		font-size: 28px;
+	}
+	.accountsTextBlock__text, .accountsTable__contentText{
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.accountsTable__bookmarks{
+		flex-flow: column nowrap;
+	}
+	.accountsTable__bookmarkContanier1, .accountsTable__bookmarkContanier2, 
+	.accountsTable__bookmarkContanier3{
+		width: 99.99%;
+		border: 1px solid #000;
+		border-radius: 0;
+		order: 0;
+	}
+	.accountsTable__bookmarkContanier1.active, .accountsTable__bookmarkContanier2.active, 
+	.accountsTable__bookmarkContanier3.active{
+		width: 99.99%;
+		border: 1px solid #000;
+		border-radius: 20px 20px 0 0;
+		border-bottom: none;
+		order: 1;
+	}
+	.accountsTable__contentTable{
+		flex-flow: row nowrap;
+	}
+	.accountsTable__contentTableHeader, 
+	.accountsTable__contentTableData{
+		flex-flow: column nowrap;
+	}
+	.accountsTable__contentTableCellHeader, 
+	.accountsTable__contentTableCellData {
+		box-sizing: border-box;
+		overflow: hidden;
+		height: 120px;
+		padding: 10px 20px;
+		flex-basis: auto;
+		font-size: 14px;
+		line-height: 20px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-content: center;
+	}
+	.accountsTable__contentContanier2 .accountsTable__contentTableCellHeader,
+	.accountsTable__contentContanier2 .accountsTable__contentTableCellData, 
+	.accountsTable__contentContanier3 .accountsTable__contentTableCellHeader,
+	.accountsTable__contentContanier3 .accountsTable__contentTableCellData{
+		flex-basis: auto;
+	}
+	.accountsTable__contentContanier2 .accountsTable__contentTableCellHeader:nth-of-type(3),
+	.accountsTable__contentContanier2 .accountsTable__contentTableCellData:nth-of-type(3), 
+	.accountsTable__contentContanier3 .accountsTable__contentTableCellHeader:nth-of-type(3),
+	.accountsTable__contentContanier3 .accountsTable__contentTableCellData:nth-of-type(3){
+		flex-basis: auto;
+	}
+	.accountsTable__contentTableCellHeader>span{
+		display: inline;
+	}
+	.accountsTable__contentTableCellHeader>span:last-of-type{
+		margin-left: 3px;
+	}
+
+}
+@media (max-width:670px){
+	.header-caption{
+		margin-top: 180px;
+	}
+	.header-caption_style{
+		font-size: 28px;
+	}
+	.accountsTable__bookmarkContanier1, .accountsTable__bookmarkContanier2, 
+	.accountsTable__bookmarkContanier3{
+		height: 80px;
+	}
+	.accountsTable__bookmarkName{
+		font-size: 17px;
+		line-height: 21px;
+	}
+	.accountsTable__bookmarkPercent{
+		font-size: 28px;
+		line-height: 36px;
+	}
+}
+@media (max-width:560px){
+	.accountsTextBlock{
+		padding: 0 25px;
+	}
+	.accountsTable{
+		margin: 0 30px;
+	}
+	.accountsTable__bookmarkPercent{
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.accountsTable__tableContent{
+		padding: 30px 25px;
+	}
+	.accountsTable__contentTableCellHeader, 
+	.accountsTable__contentTableCellData{
+		height: 150px;
+	}
+}
+@media (max-width:420px){
+	.header{
+		height: 260px;
+		background-size: cover;
+		background-position: center;
+	}
+	.header-caption{
+		margin-top: 160px;
+	}
+	.header-caption_style{
+		font-size: 22px;
+	}
+	.accountsTextBlock{
+		margin: 20px 0;
+	}
+	.accountsTextBlock__header{
+		font-size: 17px;
+	}
+	.accountsTextBlock__text, .accountsTable__contentText{
+		font-size: 14px;
+		line-height: 18px;
+		text-align: justify;
+	}
+	.accountsTable__bookmarkContanier1, .accountsTable__bookmarkContanier2, 
+	.accountsTable__bookmarkContanier3{
+		height: 60px;
+	}
+	.accountsTable__bookmarkName{
+		height: 40%;
+		padding: 5px 0;
+	}
+	.accountsTable__bookmarkPercent{
+		height: 60%;
+		padding: 0 0 5px 0;
+	}
+	.accountsTable__contentTableCellHeader, 
+	.accountsTable__contentTableCellData{
+		padding: 10px 5px;
+	}
+}
