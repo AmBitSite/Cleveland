@@ -17,7 +17,7 @@ function animateDiagram(elem, numb) {
 		if(i>numb)clearTimeout(test)
 	}, 30)
 }
-animateDiagram(child1, 70)
+
 
 var child2 = document.querySelectorAll(".circle__text1");
 var Circle1 = function (sel, elem) {
@@ -38,4 +38,39 @@ function animateDiagram1(elem, numb, block) {
 	}, 30)
 }
 
-animateDiagram1(child2, 30, '.circle1')
+var elem = document.getElementsByClassName("visElem");
+var Visible = function (target) {
+    var targetPosition = {
+        top: window.pageYOffset + target.getBoundingClientRect().top,
+        left: window.pageXOffset + target.getBoundingClientRect().left,
+        right: window.pageXOffset + target.getBoundingClientRect().right,
+        bottom: window.pageYOffset + target.getBoundingClientRect().bottom
+    },
+        windowPosition = {
+            top: window.pageYOffset,
+            left: window.pageXOffset,
+            right: window.pageXOffset + document.documentElement.clientWidth,
+            bottom: window.pageYOffset + document.documentElement.clientHeight
+        };
+    if (targetPosition.bottom > windowPosition.top &&
+        targetPosition.top < windowPosition.bottom &&
+        targetPosition.right > windowPosition.left &&
+        targetPosition.left < windowPosition.right) {
+			animateDiagram(child1, 70)
+			animateDiagram1(child2, 30, '.circle1')
+    }
+};
+var xx = false;
+window.addEventListener('scroll', function() {
+	if (!xx){
+		Visible(elem[0])
+		xx = true
+	}
+	console.log(xx)
+
+});
+
+for(var i = 0; i<elem.length; i++){
+	Visible(elem[i])
+
+}
