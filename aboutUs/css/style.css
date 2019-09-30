@@ -87,14 +87,22 @@ circle:nth-child(2n) {
 	z-index: 3;
 	color:#000;
 }
-.diagramm-right{
+.circle__text1{
+	position: absolute;
+	display: block;
+	top:27%;
+	left:43%;
+	z-index: 3;
+	color:#000;
+}
+/* .diagramm-right{
 	width: 170px;
 	height: 170px;
 	border: 4px solid #0f365a;
 	border-radius: 50%;
 	display: flex;
 	margin-bottom: 40px;
-}
+} */
 .diagramm__text{
 	color:#505050;
 	margin: auto;
