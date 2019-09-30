@@ -104,7 +104,7 @@ circle:nth-child(2n) {
 	margin-bottom: 40px;
 } */
 .diagramm__text{
-	color:#505050;
+	color:#181818;
 	margin: auto;
 	font-size: 36px;
 	font-weight: 900;
@@ -208,7 +208,7 @@ circle:nth-child(2n) {
 	font-size: 24px;
 	line-height: 36px;
 	font-weight: 400;
-	color: #505050;
+	color: #181818;
 }
 .endContetnt{
 	margin-bottom: 100px;
