@@ -33,7 +33,7 @@
 	text-align: center;
 	font-size: 24px;
 	line-height: 36px;
-	color: #181818;
+	color: #505050;
 }
 .accountsTextBlock__text_mr-top{
 	margin-top:25px;
@@ -137,7 +137,7 @@
 }
 .accountsTable__contentText {
 	font-size: 24px;
-	color: #181818;
+	color: #505050;
 	display: inline-block;
 	margin-bottom:10px;
 }
@@ -165,7 +165,7 @@
 	text-align: center;
 	font-size: 20px;
 	line-height: 30px;
-	color: #181818;
+	color: #505050;
 }
 .accountsTable__contentTableCellHeader{
 	color: #38a1f7;

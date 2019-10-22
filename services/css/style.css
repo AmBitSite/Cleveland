@@ -104,6 +104,7 @@
 }
 .crupto-block__img{
     margin-right: 40px;
+    filter: grayscale(1);
 }
 .crypto-btn{
     width: 700px;
@@ -142,6 +143,9 @@
 }
 .clearance-btn:hover{
     background-image: -webkit-linear-gradient(top, #3e5eee, #0f365a);
+}
+.clearance-btn__link{
+
 }
 .gold-trade{
 	width: 100%;
@@ -208,7 +212,7 @@
     width:700px;
 }
 .company-formation__second-header{
-    color: #181818;
+    color: #505050;
     font-size: 17px;
     margin-top:20px;
     margin-bottom: 25px;
@@ -248,7 +252,7 @@
 }
 .company-formation-container-block__text{
     font-size: 15px;
-    color:#181818;
+    color:#505050;
     line-height: 24px;
     text-align: center;
 }
